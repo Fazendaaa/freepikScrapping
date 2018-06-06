@@ -1,0 +1,8 @@
+ci
+node_modules
+others
+src
+.travis.yml
+jest.config.json
+tsconfig.json
+tslint.json
