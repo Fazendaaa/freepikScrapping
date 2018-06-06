@@ -23,7 +23,7 @@ A simple NPM scrapping tool to search elements in [freepik](https://br.freepik.c
 
 # How to use it
 
-* searchFreepik ( { __term__: _string_ | _Array<_string_>_; __page__?: _number_; })
+* searchFreepik ( { __term__: _string_ | _Array<_string_>_; __page__?: _number_; }): Returns a Promise or throws an error
 
 Example:
 

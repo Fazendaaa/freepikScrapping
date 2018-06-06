@@ -23,7 +23,7 @@ Uma ferramenta de buscas no site do [freepik](https://br.freepik.com/).
 
 # Como utilizar
 
-* searchFreepik ( { __term__: _string_ | _Array<_string_>_; __page__?: _number_; })
+* searchFreepik ( { __term__: _string_ | _Array<_string_>_; __page__?: _number_; }): Retorna uma Promise ou dá throws de um error
 
 Examplo:
 
