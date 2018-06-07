@@ -1,4 +1,5 @@
 ci
+coverage
 node_modules
 others
 src
