@@ -30,7 +30,8 @@
         "no-unnecessary-semicolons": false,
         "no-return-await": false,
         "no-single-line-block-comment": false,
-        "mocha-unneeded-done": false
+        "mocha-unneeded-done": false,
+        "variable-name": false
     },
     "rulesDirectory": []
 }
