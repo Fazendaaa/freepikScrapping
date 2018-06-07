@@ -1,4 +1,4 @@
-# freepikScrapping
+# freepik-scrapping
 
 <div align = "center">
     <br>
@@ -11,7 +11,7 @@
 [![English README](https://img.shields.io/badge/Language-EN-blue.svg?longCache=true&style=for-the-badge)](./README.md)
 [![Portuguese README](https://img.shields.io/badge/Linguagem-PT-green.svg?longCache=true&style=for-the-badge)](./docs/readme/README_PT.md)
 
-[![npm](https://img.shields.io/npm/v/freepikScrapping.svg?style=flat-square)](https://www.npmjs.com/package/freepikScrapping)
+[![npm](https://img.shields.io/npm/v/freepik-scrapping.svg?style=flat-square)](https://www.npmjs.com/package/freepik-scrapping)
 [![Build Status](https://travis-ci.org/Fazendaaa/freepikScrapping.svg?branch=master)](https://travis-ci.org/Fazendaaa/freepikScrapping)
 [![Coverage Status](https://coveralls.io/repos/github/Fazendaaa/freepikScrapping/badge.svg?branch=master)](https://coveralls.io/github/Fazendaaa/freepikScrapping?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c6069aecd89bb086265c/maintainability)](https://codeclimate.com/github/Fazendaaa/freepikScrapping/maintainability)
@@ -29,7 +29,7 @@ A simple NPM scrapping tool to search elements in [freepik](https://br.freepik.c
 Example:
 
 ``` typescript
-import { searchFreepik } from 'freepikScrapping';
+import { searchFreepik } from 'freepik-scrapping';
 
 searchFreepik({ term: 'bola' }).then(console.log);
 searchFreepik({ term: 'bola', page: 2 }).then(console.log);
